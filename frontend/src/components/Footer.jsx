@@ -10,9 +10,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-3">
           <p>
-            📞 Call Now: <a href="">7676991188</a> | <a href="">9880606006</a>{" "}
+            📞 Call Now: <a href="tel:+917676991188" className="hover:text-blue-300">7676991188</a> | <a href="tel:+919880606006" className="hover:text-blue-300">9880606006</a>{" "}
           </p>
-          📧 Email Us: info@example.com
+         <p> 📧 Email Us: <a href="mailto:" className="hover:text-blue-300">info@example.com</a></p>
         </div>
       </div>
       <div className="w-1/2 max-md:w-full flex flex-col gap-6">
